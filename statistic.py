@@ -1,6 +1,6 @@
 #Statistic properties and observation types
 
-class Statistic(Object)
+class Statistic(object):
 	'Properties of a statistic'
 	
 	def __init__(self, id, name, type, scale):
@@ -9,7 +9,7 @@ class Statistic(Object)
 		self.type = type
 		self.scale = scale
 
-class Observation(Object)
+class Observation(object):
 	'One observation of a statistic'
 	
 	def __init__(self, date, value, statistic):
